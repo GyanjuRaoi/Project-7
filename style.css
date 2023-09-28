@@ -1,0 +1,86 @@
+html{
+    line-height: 1.5;
+}
+body{
+    margin: 0;
+    font-size:xx-small;
+    font-family:Arial, Helvetica, sans-serif;
+    font: display 1px; color: grey;
+}
+nav,footer,main{
+    display: block;
+}
+h3,h4,h6{
+    font-size: 1em;
+    margin: 0.67em 0;
+}
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.NavBar{
+    width: 800px;
+    background: scroll whitesmoke;
+    overflow: hidden;
+}
+
+.NavItem{
+    list-style: none;
+    float: left;
+    display: block;
+    padding-left: 40px;
+    padding-right: 10px;   
+}
+.wholepage{
+    background-color: whitesmoke;
+   
+}
+
+#middle_part{
+    display: flex;
+}
+
+#middle_part,.first_div{
+    width: 40vw;
+}
+
+#middle_part,.second_div{
+    width: 60vw;
+    
+}
+
+#heading,h6{
+    text-align: center;
+    padding: 0%;
+} 
+
+#Leave_Comment{
+    display: block;
+}
+
+footer{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+form{
+    padding: 5px;
+    display: flex;
+}
+
+form, #maindiv{
+    padding: 5px;
+    display: flex;
+}
+
+#maindiv, div{
+    padding: 5px;
+}
+
+header, li{
+    padding: 10px;
+}
+
