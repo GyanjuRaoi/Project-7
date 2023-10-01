@@ -9,6 +9,7 @@ body{
 }
 nav,footer,main{
     display: block;
+   
 }
 h3,h4,h6{
     font-size: 1em;
@@ -19,8 +20,11 @@ hr{
     height: 0;
     overflow: visible;
 }
+
+.NavItemBox{
+    padding-left: 500px;
+}
 .NavBar{
-    width: 800px;
     background: scroll whitesmoke;
     overflow: hidden;
 }
